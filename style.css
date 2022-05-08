@@ -1,0 +1,602 @@
+/*INICIO DE RESETEO*/
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+}
+
+/*FIN DE RESETEO*/
+
+/*--INICIO DEL HEADER--*/
+
+.nav-color{
+    background-color: #FFB2A6;
+}
+
+.nav-logo{
+    font-family:'Times New Roman', Times, serif
+}
+
+
+/*----FIN DEL HEADER----*/
+
+.body {
+    background-color: #e3b7a0;
+
+}
+
+/*---Inicio Contenido Principal---*/
+
+.main {
+    background-color: #ffeed8;
+    
+}
+.foto-container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.foto-inicio {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.foto-img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/*-----UBICACION Y FORMULARIO---*/
+.ubicacion-contacto {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.titulo-contacto {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif   
+}
+
+.contacto-mapa {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+    padding-right: 80px;
+
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.btn-color{
+    background-color: #131012;
+}
+
+/*---Fin Contenido Principal---*/
+
+/*---Inicio del footer--*/
+
+.footer-container {
+    width: 100%;
+    height: 10%;
+    margin: auto;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 10% 10% 40% 10% 25% 5%;
+    grid-template-rows: 30% 40% 30%;
+    align-items: center;
+    font-size: 20px;
+}
+
+.redes {
+    grid-column: 4 / 6;
+    grid-row: 3/1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img {
+    width: 50px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.whatsapp-fijo {
+    background-position: center;
+    position: fixed;
+    top: 80%;
+    right: 30px;
+    bottom: 40px;
+    margin-top: 25px;
+    
+}
+
+.img1 {
+    width: 50px;
+    padding-top: 50px;
+    object-fit: cover;
+
+}
+
+.sitios-contacto {
+    display: grid;
+    position: relative;
+    grid-row: 3 / 2;
+    grid-column: 1 / 3;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.listas {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 60px;
+}
+/*---Fin del footer--*/
+
+/*-----------------------CONTENIDO PAGINA PESTAÑAS Y CEJAS-----------------*/
+
+
+.contenido-pestanas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.titulo-pestanas{
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    color: #f10086;
+    margin: auto;
+    padding: auto;
+}
+.extension-pestanas{
+    text-align: left;
+    width: 80%;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.extension{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.lifting-pestanas{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.lifting{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.perfilado-cejas{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.cejas{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.perfilado-tine{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.tinte{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+
+/*-----------------------FIN CONTENIDO PAGINA PESTAÑAS Y CEJAS-----------------*/
+
+/*-----------------------INICIO CONTENIDO PAGINA DEPILACION-----------------*/
+
+.contenido-depilacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.titulo-depilacion{
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    color: #f10086;
+    margin: auto;
+    padding: auto;
+}
+
+.depilacion-cera{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.cera{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.depilacion-definitiva{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.definitiva{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+/*-----------------------FIN CONTENIDO PAGINA DEPILACION-----------------*/
+
+/*-----------------------INICIO CONTENIDO PAGINA UÑAS-----------------*/
+
+.contenido-unas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.titulo-unas{
+    width: 90%;
+    height: 40px;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    color: #f10086;
+    margin: auto;
+    padding: auto;
+}
+
+.unas-esculpidas{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.esculpidas{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.pedicuria{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.titulo-pedicure{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.manucuria{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.manicuria-profunda{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+.permanente{
+    text-align: left;
+    padding-left: 3%;
+    margin-top: 30px;
+}
+
+.esmaltado-permanente{
+    color: #f10086;
+    text-decoration: underline;
+}
+
+/*-----------------------FIN CONTENIDO PAGINA UÑAS-----------------*/
+
+/* MEDIA QUERY CELULARES EN HORIZONTAL Y TABLETS PEQUEÑAS*/
+
+@media only screen and (min-width: 360px) and (max-width:767px){
+
+    .foto-inicio {
+        margin-bottom: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .foto {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .foto-img{
+        width: 100%;
+        height: 50%;
+    }
+
+    .ubicacion-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-contacto {
+        font-size: 18px;
+        margin-bottom: 380px;
+    }
+
+    .contacto-mapa {
+        display: none;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        margin: auto;
+    }
+
+    .footer-container {
+        position: relative;
+        display: grid;
+        grid-column: 100%;
+        grid-template-rows: 100%;
+    }
+
+    .redes {
+        display: grid;
+        grid-column: 3/6;
+
+    }
+
+    .whatsapp-fijo {
+        display: none;
+    }
+
+    .sitios-contacto {
+        display: grid;
+        grid-column: 1/4;
+        grid-row: 2/1;
+    }
+
+    /*Contenido de Pestañas y cejas */
+
+    .contenido-pestanas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+  
+     /*Contenido de Depilacion */
+
+     .contenido-depilacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 18px;
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+ 
+    /*Contenido de  Uñas */
+
+    .contenido-unas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 18px;
+
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* MEDIA QUERY DESKTOP Y TABLET */
+
+
+@media only screen and (min-width:768px) and (max-width:1200px){
+
+    .foto-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .foto-inicio {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .foto-img {
+        width: 199px;
+        height: 160px;
+
+    }
+    .ubicacion-contacto {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .titulo-contacto {
+        font-size: 18px;
+        margin-bottom: 230px;
+    }
+
+    .contacto-mapa {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0%;
+    }
+
+    .mapa{
+        width: 350px;
+    }
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;    
+    }
+
+    .footer-container {
+        position: relative;
+        grid-column: 100%;
+        grid-template-rows: 120px;
+    }
+
+    .redes {
+        display: grid;
+        grid-column: 5/6;
+        grid-row: 2/1;
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .whatsapp-fijo {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+
+    .sitios-contacto {
+        display: grid;
+        grid-column: 1/3;
+        grid-row: 3/1;
+    }
+
+    .listas{
+        padding-top: 30px;
+    }
+
+    /*Contenido de Pestañas y cejas */
+
+    .contenido-pestanas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 23px;
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+  
+     /*Contenido de Depilacion */
+
+    .contenido-depilacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 23px;
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+    
+    /*Contenido de  Uñas */
+
+    .contenido-unas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 23px;
+    }
+
+    .div-titulo{
+        display: flex;
+        align-items: center;
+    }
+
+}
